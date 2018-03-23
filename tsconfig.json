@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "allowUnusedLabels": true,
+    "target": "es5",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "pretty": true,
+    "declaration": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "es5",
+      "es2015",
+      "es2015.promise"
+    ],
+    "types": [
+      "bootbox",
+      "bootstrap-notify",
+      "bootstrap",
+      "jquery.bootstrap.wizard",
+      "jquery",
+      "jqueryui",
+      "signalr",
+      "jquery.validation",
+      "jquery.blockui",
+      "kendo-ui",
+      "jest"
+    ]
+  },
+  "include": [
+    "./src/App/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "build"
+  ],
+  "typeRoots": [
+    "node_modules",
+    "node_modules/@types"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": true //,
+}
